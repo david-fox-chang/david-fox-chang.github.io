@@ -14,9 +14,12 @@ module.exports = {
     // proxy: {},
   },
   chainWebpack: (config) => {
-    config.resolve.alias.set('@', resolve('src')).set('@modules', resolve('node_modules'));
-    // .set('assets', resolve('src/assets'))
-    // .set('components', resolve('src/components'))
+    config.resolve.alias
+      .set('@', resolve('src'))
+      .set('@modules', resolve('node_modules'))
+      .set('@routes', resolve('src/router/routes.js'))
+      .set('@assets', resolve('src/assets'))
+      .set('@components', resolve('src/components'));
     // .set('layout', resolve('src/layout'))
     // .set('base', resolve('src/base'))
     // .set('static', resolve('src/static'));
