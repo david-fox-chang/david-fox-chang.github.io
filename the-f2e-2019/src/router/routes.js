@@ -1,10 +1,16 @@
 import Home from '@catalog/views/Home.vue';
+import week1 from '@week-1/index';
 
 const routes = [
   {
     path: '/',
     name: '目錄頁',
     component: Home,
+  },
+  {
+    path: '/week-1/',
+    name: 'week-1: 第一關 - 番茄鐘',
+    component: week1,
   },
   // {
   //   path: '/about',
