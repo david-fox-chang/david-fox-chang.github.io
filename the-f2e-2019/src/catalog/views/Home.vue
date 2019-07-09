@@ -13,6 +13,7 @@
 </template>
 
 <script>
+// eslint-disable-next-line import/no-cycle
 import routes from '@routes';
 
 export default {
