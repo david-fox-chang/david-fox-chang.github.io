@@ -18,8 +18,7 @@ module.exports = {
       .set('@', resolve('src'))
       .set('@modules', resolve('node_modules'))
       .set('@routes', resolve('src/router/routes.js'))
-      .set('@assets', resolve('src/assets'))
-      .set('@components', resolve('src/components'));
+      .set('@assets', resolve('src/assets'));
     // .set('layout', resolve('src/layout'))
     // .set('base', resolve('src/base'))
     // .set('static', resolve('src/static'));
