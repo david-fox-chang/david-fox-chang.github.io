@@ -4,10 +4,10 @@
     <h1 class="header">大衛就是小狐狸 - 精神時光屋 2019</h1>
     <div class="nav">
       <router-link
-        v-for="({ path, name }, index) in $router.options.routes"
-        :to="path"
+        v-for="({ name, text }, index) in $router.options.routes"
+        :to="{ name }"
         :key="`home-nav-${index}`"
-      >{{ getName(name) }}</router-link>
+      >{{ getName(text) }}</router-link>
     </div>
   </div>
 </template>

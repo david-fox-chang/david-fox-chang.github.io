@@ -4,13 +4,15 @@ import week1 from '@week-1/index';
 const routes = [
   {
     path: '/',
-    name: '目錄頁',
+    name: 'Catalog',
     component: Home,
+    text: '目錄頁',
   },
   {
     path: '/week-1/',
-    name: 'week-1: 第一關 - 番茄鐘',
+    name: 'Week-1',
     component: week1,
+    text: 'Week-1: 第一關 - 番茄鐘',
   },
   // {
   //   path: '/about',
