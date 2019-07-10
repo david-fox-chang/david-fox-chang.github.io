@@ -13,5 +13,17 @@ export default {
 <style lang="less">
 @import '../styles/font-roboto.css';
 @import '../styles/material-icons.css';
+@import '../styles/background.less';
 </style>
 
+<script>
+
+const week1HtmlSize = () => ['html']
+  .forEach(name => document.querySelector(name).classList.toggle(`week-1-${name}`));
+
+export default {
+  name: 'week-1',
+  beforeCreate: week1HtmlSize,
+  beforeDestroy: week1HtmlSize,
+};
+</script>

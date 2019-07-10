@@ -1,0 +1,19 @@
+@import (reference) '../styles/share.less';
+
+.week-1-html {
+  background-color: @html-background-color;
+}
+
+.week-1-wrapper {
+  &, & * {
+    font-family: 'Roboto', sans-serif;
+  }
+  width: 1280px;
+  height: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: calc(50vh - $height / 2);
+  &, &.main {
+    background-color: @working[bg-color];
+  }
+}
