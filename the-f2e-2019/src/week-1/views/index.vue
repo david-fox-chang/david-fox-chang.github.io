@@ -9,3 +9,9 @@ export default {
   name: 'week-1',
 };
 </script>
+
+<style lang="less">
+@import '../styles/font-roboto.css';
+@import '../styles/material-icons.css';
+</style>
+
